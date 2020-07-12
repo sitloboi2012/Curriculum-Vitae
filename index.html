@@ -255,8 +255,31 @@
             </div>
           </div>
         </div>
-        <div class="text-center"><button id="download" type="submit" onclick="window.open('Huy_Vo_-_Data_Scientist (1).pdf')">Download Resume</button></div>
-      </div>
+
+        <div class="row">
+          <div class="col-lg-5 col-md-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="text-center">
+              <button id="download" type="submit" onclick="window.open('Huy_Vo_-_Data_Scientist (1).pdf')">
+                Download Resume
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-2 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="text-center">
+            </div>
+          </div>
+      
+          <div class="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="text-center">
+              <button id="download" type="submit" onclick="window.open('Huy_Vo_-_Data_Scientist (1).pdf')">
+                Download Cover Letter
+              </button>
+            </div>
+          </div>
+
+        </div>
+
     </section>
 
     <section id="portfolio" class="portfolio section-bg">
@@ -264,21 +287,78 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p><strong><i>Personal and Community Project that I have joined and participate in through out my University period</i></strong></p>
-          <p><strong><i>This is the combination between Data Analyst / Cleaning / Shaping and Visualization with Power BI and Tableau</i></strong></p>
+          <p><strong><i>Personal and Intern Project that I have joined and participate in through out my University period </br>
+
+            These work are all end-to-end project. From the stage that I gathering data to the analysing and evaluating Model</br>
+            Not only that, there are some app that I built during my free time  
+          </i></strong></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Regression</li>
+              <li data-filter=".filter-card">Classification</li>
+              <li data-filter=".filter-cluster">Clustering</li>
+              <li data-filter=".filter-web">App & Web</li>
+            </ul>
+          </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/credit-card.jpg" class="img-fluid" alt="">
+              <img src="assets/img/titanic.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Credit Card Fraud Dataset</h4>
-                <p>Data Analytics</p>
+                <h4>Titanic</h4>
+                <p>Classification</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/credit-card.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-credit.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/titanic-bi.jpg" data-gall="portfolioGallery" class="venobox" title="Titanic"><i class="bx bx-plus"></i></a>
+                  <a href="http://titanic-visualization.herokuapp.com/" target="__blank"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cluster">
+            <div class="portfolio-wrap">
+              <img src="assets/img/pollution.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>World Pollution</h4>
+                <p>Clustering</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="World Pollution"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cluster">
+            <div class="portfolio-wrap">
+              <img src="assets/img/twitter.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Health News on Twitter</h4>
+                <p>Clustering</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cluster">
+            <div class="portfolio-wrap">
+              <img src="assets/img/covid.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>COVID-19 News</h4>
+                <p>Clustering</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -286,68 +366,26 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/titanic.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Titanic Dataset</h4>
-                <p>Data Analytics</p>
+                <h4>BimBim Market</h4>
+                <p>Web & App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/titanic.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="https://titanic-visualization.herokuapp.com/" target="__blank"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="BimBim Web & App"><i class="bx bx-plus"></i></a>
+                  <a href="https://bimbim-visual.herokuapp.com" target="__blank"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/wine.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Wine Dataset</h4>
-                <p>Data Analytics</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/wine.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="https://wine-visualization.herokuapp.com/" target="__blank"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/music.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Music Player Tkinter</h4>
-                <p>Personal Project</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/music.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-music.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/1.png" class="img-fluid" alt="" style="width: 350px;height: 300px;">
-                <div class="portfolio-info">
-                  <h4>BimBim South Australia</h4>
-                  <p>Web &amp; App (Intern)</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/1.png" data-gall="portfolioGallery" class="venobox" title="BimBim SA"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/bimbim.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4> BimBim Business Market Dataset</h4>
-                <p>Data Analytics (Intern)</p>
+                <h4>BimBim Selling Data</h4>
+                <p>Regression</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/bimbim.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/bimbim_market.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
                   <a href="https://bimbim-visual.herokuapp.com/" target="__blank"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -356,13 +394,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/house.jpg" class="img-fluid" alt="">
+              <img src="assets/img/tony-yu-H5KXAhAP7P8-unsplash.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>House Price Dataset</h4>
-                <p>Data Analytics</p>
+                <h4>ANZ Stock Price 2018-2020</h4>
+                <p>Google Colab</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/house.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-house.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -370,13 +408,69 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/stock.jpg" class="img-fluid" alt="">
+              <img src="assets/img/music.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Stock Price Dataset</h4>
-                <p>Data Analytics</p>
+                <h4>Music Application</h4>
+                <p>Web & App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/stock.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-stock.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/house.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Melbourne House Price</h4>
+                <p>Regression</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/credit-card.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Credit Card Fraud Detection</h4>
+                <p>Classification</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Wine Quality & Type Dataset</h4>
+                <p>Classification</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/chat.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Chat Server (Coming Soon)</h4>
+                <p>Web & App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -386,7 +480,6 @@
 
       </div>
     </section>
-
 
     <section id="achieve" class="services">
       <div class="container" data-aos="fade-up">
