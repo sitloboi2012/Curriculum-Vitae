@@ -606,7 +606,7 @@ section {
   z-index: 9994;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.portfolio .portfolio-wrap .portfolio-info h4,h2 {
   font-size: 20px;
   color: #45505b;
   font-weight: 600;
